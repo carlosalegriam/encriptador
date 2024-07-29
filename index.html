@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="imgLogo" src="img/logo.png" alt="Logo"/>
+        </div>
+    </header>
+    <main class="content">
+
+        <section class="content__input">
+            <textarea placeholder="Ingrese su texto aquí" id='textarea1' oninput="validateInput()"></textarea>
+    
+            <article class="input__rules">
+            <img src="img/bi_exclamation-circle-fill2.png"/>
+            <p>Solo letras minusculas y sin acentos</p>
+            </article>
+    
+            <div class="container-buttons">
+            <button class="button button--secondary b2" id="decryptButton" onclick="handleClick('decrypt')">Desencriptar</button>
+            <button class="button b1"  id="encryptButton" onclick="handleClick('encrypt')">Encriptar</button>
+            </div>
+
+            <div id="modal" class="modal">
+                <div class="modal__content">
+                  <p>El texto debe contener solo letras minúsculas y sin caracteres especiales.</p>
+                  <button id="modal__close">Cerrar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content__encrypt">
+            <div class="container-textarea">
+    
+            <article class="warning" id="warningSection">
+                <img src="img/muneco.png" alt="">
+                <p>Ningun mensaje fue encontrado</p>
+                <span>Ingresa un texto de desees encriptar o desencriptar.</span>
+            </article>
+    
+            <div class="results non-visible" id="resultsSection">
+                <textarea id="textarea2"></textarea>
+                <button class="button" onclick="copyText()" id="copyButton">Copiar</button>
+            </div>
+            </div>
+        </section>      
+    </main>
+
+    <footer class="footer-container">
+        <p> Developed by Calegriam. Find me on <a href="https://github.com/carlosalegriam">GitHub</a></p>
+    </footer>
+      
+    
+    <script src="script/logica.js"></script>
+</body>
+</html>
