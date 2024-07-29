@@ -33,3 +33,8 @@ gaitober" => "gato"
 **_Extras:_**
 _Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones._
 
+## Imagen
+
+<img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen1.png" alt="Descripción de la imagen" width="300"/>
+<img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen2.png" alt="Descripción de la imagen" />
+<img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen3.png" alt="Descripción de la imagen" />
