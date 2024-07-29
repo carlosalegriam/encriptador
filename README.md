@@ -35,6 +35,6 @@ _Un botón que copie el texto encriptado/desencriptado para la sección de trans
 
 ## Imagen
 
-<img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen1.png" alt="Descripción de la imagen" width="300"/>
+<img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen1.png" alt="Descripción de la imagen" width="600"/>
 <img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen2.png" alt="Descripción de la imagen" />
 <img src="https://github.com/carlosalegriam/encriptador/blob/main/img/screen3.png" alt="Descripción de la imagen" />
